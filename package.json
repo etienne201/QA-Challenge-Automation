@@ -1,0 +1,26 @@
+{
+  "name": "qa-playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "pnpm exec playwright test",
+  "test:headed": "pnpm exec playwright test --headed",
+  "report": "pnpm exec allure generate ./allure-results --clean -o ./reports && pnpm exec allure open ./reports"
+},
+
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.2",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.53.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

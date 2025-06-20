@@ -1,0 +1,7 @@
+# Node modules
+node_modules/
+
+# Playwright test outputs
+allure-results/
+test-results/
+reports/
